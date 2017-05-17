@@ -1,0 +1,1065 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   ==========================================================================
+   Author's custom styles
+   ==========================================================================
+   ========================================================================== */
+   
+
+
+/* =============================================
+  COLORS 
+  =============================================
+  Dark Pink (Magenta): #b21e49;
+  Light Grey: #eeeeee;
+  Bright Pink: #ff1256;
+  Dark Grey: #222222;
+  Blue: #23a4cc;
+  ============================================= */
+
+
+
+
+
+
+/* ==========================================================================
+   GLOBALS
+   ========================================================================== */
+
+body, 
+html {
+  background: #eee;
+  color: #222;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #222;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:active {
+  color: #23a4cc;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+h1 {
+  font-size: 1.3125em;
+  line-height: 1.125em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 1em;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 15px 0 10px;
+}
+
+.btn {
+  background: #ff1256;
+  border: 0;
+  box-shadow: 2px 2px rgba(178,30,73,.3);
+  color: #fff;
+  display: inline-block;
+  font-size: 1.125em;
+  font-weight: bold;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #23a4cc;
+}
+
+.fa {
+  font-size: 1.5em;
+  padding: 0 5px;
+}
+
+img {
+  height: auto;
+}
+
+
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+
+header {
+  background: #ddd;
+  width: 100%;
+}
+
+#logo {
+  background: #222;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  border-bottom: 1px solid #cfcacb;
+  list-style-type: none;
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav li a {
+  display: block;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   MAIN
+   =========================================================================== */
+
+main {
+  margin: auto;
+  width: 96%;
+}
+
+.top-story {
+  clear: both;
+  overflow: auto;
+  padding: 5% 1%;
+  width: 98%;
+}
+
+.top-img {
+  height: auto;
+  width: 100%;
+}
+
+#top-info {
+  width: 100%;
+}
+
+/* DETAIL page styles */
+.story-img {
+  width: 100%
+}
+
+
+
+/* ========== SIDEBAR ========== */
+.sidebar {
+  width: 100%;
+}
+
+.newsletter {
+  border-top: 1px solid #cfcacb;
+  width: 100%;
+}
+
+.newsletter input {
+  width: 100%;
+}
+
+.field,
+.detail-field {
+  border: 1px solid #eaeaea;
+  height: 45px;
+  margin-bottom: 5px;
+}
+
+.sidebar-upcoming,
+.sidebar-faq {
+  display: none;
+}
+
+
+
+/* ========== FEED ========== */
+.feed,
+.feed-item {
+  clear: both;
+  width: 100%;
+}
+
+.feed {
+  border-top: 1px solid #cfcacb;
+  margin: 25px 0;
+}
+
+.feed-item {
+  border-bottom: 1px solid #cfcacb;
+  padding: 5px 0 40px;
+}
+
+.feed-item:last-of-type {
+  border: 0;
+}
+
+.feed-type {
+  font-size: .625em;
+  text-transform: uppercase;
+}
+
+.feed-img {
+  border: 2px solid #d5d5d5;
+  float: left;
+  margin: 0 2% 0 1%;
+  width: 45%;
+}
+
+.feed-info {
+  float: left;
+  padding: 0 3% 0 2%;
+  width: 45%;
+}
+
+.feed-info h3 {
+  margin: 0;
+}
+
+.feed-info p {
+  display: none;
+}
+
+
+
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+footer {
+  border-top: 1px solid #cfcacb;
+  clear: both;
+  margin-top: 30px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+#footer-logo {
+  background: #222;
+  margin: auto;
+  text-align: center;
+  width: 45%;
+}
+
+#footer-logo img {
+  padding: 15px;
+  width: 80%;
+}
+
+
+
+
+/* ==========================================================================
+   ABOUT US
+   ========================================================================== */
+
+#contact {
+  margin: 0 auto;
+  overflow: auto;
+  width: 94%;
+}
+
+.contact-container {
+  float: left;
+  width: 100%;
+}
+
+.map-container {
+  float: left;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#mission {
+  margin: 0 auto;
+  width: 94%;
+}
+
+#mission p {
+  font-size: .875em;
+}
+
+#team {
+  margin: 0 auto;
+  width: 94%;
+}
+
+#team h1 {
+  padding-top: 20px;
+}
+
+.team-member {
+  margin: 25px 0;
+  width: 100%;
+}
+
+.team-img {
+  border: 2px solid #d5d5d5;
+  float: left;
+  margin-right: 4%;
+  max-width: 190px;
+  padding-bottom: 40%;
+  width: 40%;
+}
+
+.team-details {
+  float: left;
+  padding-left: 4%;
+  width: 50%;
+}
+
+.team-name {
+  margin: 0 0 5px;
+}
+
+.team-title {
+  margin-top: 0;
+}
+
+.team-description {
+  display: none;
+  font-size: .875em;
+}
+
+#team-img-jack {
+  background: url(../img/jack.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#team-img-lana {
+  background: url(../img/lana.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#team-img-willow {
+  background: url(../img/willow.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    /* TABLET STYLES */
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.3125em;
+  }
+
+  h3 {
+    font-size: 1.125em;
+  }
+
+  h4 {
+    font-size: 1.125em;
+  }
+
+
+
+
+    /********** HEADER 768px **********/
+    header {
+      height: 85px;
+    }
+
+    .header-cont {
+      margin: auto;
+      overflow: auto;
+      width: 94%;
+    }
+
+    #logo {
+      float: left;
+      width: 40%;
+    }
+
+    nav {
+      float: right;
+      height: 85px;
+      width: 60%;
+    }
+
+    nav ul {
+      float: right;
+    }
+
+    nav li {
+      border: 0;
+      display: inline-block;
+      font-size: .875em;
+      padding: 25px 7px;
+    }
+
+
+
+    /********** TOP STORY 768px **********/
+    .top-story {
+      border-bottom: 1px solid #cfcacb;
+    }
+
+    .top-img {
+      float: left;
+      width: 58%;
+    }
+
+    .top-info {
+      float: left;
+      padding-left: 3%;
+      width: 39%;
+    }
+
+    .top-info h1 {
+      margin: 0;
+    }
+
+
+    /***** DETAIL page styles 768px *****/
+    .story-img {
+      float: left;
+      width: 50%;
+    }
+
+    .story-info {
+      float: left;
+      width: 50%;
+    }
+
+    .story-text {
+      clear: both;
+      width: 100%;
+    }
+
+
+    /********** SIDEBAR 768px **********/
+    .sidebar {      
+      float: right;
+      padding-right: 3%;
+      width: 35.85%;
+    }
+
+    .sidebar-upcoming,
+    .sidebar-faq {
+      border-bottom: 1px solid #cfcacb;
+      display: block;
+      padding: 2% 5% 30px;
+      width: 100%;
+    }
+
+    .sidebar-upcoming .btn,
+    .sidebar-faq .btn {
+      background: #b21e49;
+      text-align: center;
+      width: 100%;
+    }
+
+    h2 {
+      margin-top: 10px;
+    }
+
+    /***** DETAIL page styles 768px *****/
+    .newsletter {
+      border-top: 0;
+      border-bottom: 1px solid #cfcacb;
+      padding: 0 5% 30px;
+    }
+
+    .newsletter input {
+      float: left;
+    }
+
+    .sidebar-detail {
+      clear: both;
+      padding: 1%;
+      width: 98%;
+    }
+
+    .newsletter .detail-field {
+      width: 68%;
+    }
+
+    .newsletter .detail-btn {
+      width: 30%;
+    }
+
+
+    /********** FEED 768px **********/
+    .feed {
+      border-right: 1px solid #cfcacb;
+      border-top: 0;
+      clear: none;
+      float: left;
+      padding: 1% 0 0 1%;
+      margin: 0 0 180px;
+      width: 60%;
+    }
+
+    .feed h4 {
+      margin-top: 0;
+    }
+
+    .feed-item {
+      width: 100%;
+    }
+
+    .feed-item:last-of-type {
+      border: 0;
+    }
+
+    .feed-img {
+      width: 35%;
+    }    
+
+    .feed-type {
+      font-size: .75em;
+      padding: 10px 1%;
+    }
+
+    /********** FOOTER 768px **********/
+    footer {
+      border-top: 1px solid #cfcacb;      
+      clear: both;
+      padding-top: 30px; 
+      width: 100%;
+    }
+
+    #footer-logo {
+      width: 25%;
+      margin: auto;
+    }
+
+    #footer-logo img {
+      width: 60%;
+    }
+
+
+    /********** ABOUT US 768px **********/
+    #contact {
+      padding: 70px 0 50px;
+    }
+
+    .contact-container {
+      float: left;
+      width: 36%;
+    }
+
+    
+    .map-container {
+      float: left;
+      height: 0;
+      overflow: hidden;
+      padding-bottom: 75%;
+      position: relative;
+      width: 64%;
+    }
+
+    #mission {
+      border-top: 1px solid #cfcacb;            
+      border-bottom: 1px solid #cfcacb;
+      padding: 20px 0 30px;            
+    }
+
+    .team-member {
+      width: 50%;
+    }
+
+    .team-name {
+      font-size: 1.125em;
+    }
+
+    .team-description {
+      font-size: 1rem;
+    }
+
+}
+
+
+@media screen and (min-width: 940px) {
+    /* DESKTOP STYLES */
+
+  h1 {
+    font-size: 2.25em;
+  }
+
+  h2 {
+    font-size: 1.875em;
+  }
+
+  h3 {
+    font-size: 1.3125em;
+  }
+
+  h4 {
+    font-size: 1.125em;
+  }
+
+/********** HEADER 940px **********/
+    .main-header {
+      height: 110px;
+    }
+
+    #logo {
+      width: 30%;
+    }
+
+    #logo img {
+      padding: 2%;
+      width: 80%;
+    }
+
+    nav li {
+      border: 0;
+      display: inline-block;
+      font-size: 1rem;
+      padding: 35px 20px;
+    }
+
+
+
+/********** TOP STORY 940px **********/
+    main {
+      padding-top: 20px;
+    }
+
+    .top-story {
+      border: 0;
+      float: left;
+      min-height: 620px;
+      padding: 2%;
+      width: 62%;
+    }
+
+    .top-img,
+    .top-info {
+      float: left;
+      width: 100%;
+    }
+
+    .top-info {
+      padding: 20px 0 0 0;
+    }
+
+
+/********** SIDEBAR 940px **********/
+    .sidebar,
+    .sidebar-detail {
+      clear: none;
+      float: right;
+      height: 620px;
+      padding-top: 2%;
+      width: 29%;
+    }
+
+    .sidebar-upcoming,
+    .sidebar-faq {
+      border-bottom: 0;
+      border-top: 1px solid #cfcacb;
+      display: block;
+      margin-top: 15px;
+      padding: 3% 2%;
+    }
+
+    .newsletter {
+      border: 0;
+      padding: 2%; 
+    }
+
+    .newsletter h2 {
+      margin-top: 0;
+    }
+
+    .btn:hover {
+      background: #23a4cc;
+    }
+
+
+    /********** FEED 940px **********/
+    .feed {      
+      border-right: 0;
+      border-top: 1px solid #cfcacb;
+      margin-bottom: 0;
+      padding: 2% 0;
+      width: 100%;
+    }
+
+    .feed-item {
+      height: 190px;
+      padding: 0 0 5%;
+    }
+
+    .feed-type {
+      margin: 0;
+    }
+
+    .feed-img {
+      float: left;
+      width: 21%;
+    }    
+
+    .feed-info {
+      padding: 0 2%;
+      width: 71%;
+    }
+
+    .feed-info p {
+      display: block;
+    }
+
+    /***** DETAIL page styles 940px *****/
+    .story {
+      float: left;
+      padding: 2%;
+      width: 62%;
+    }
+
+    .story-img,
+    .story-info,
+    .story-text {
+      padding: 0 2%;
+      width: 96%;
+    }
+
+    .newsletter .detail-field,
+    .newsletter .detail-btn {
+      float: left;
+      width: 100%;
+    }
+
+
+    /********** ABOUT US 940px **********/
+    .team-member {
+      width: 100%;
+    }
+
+    .team-img {
+      margin-right: 4%;
+      padding-bottom: 25%;
+      max-width: 190px;
+      width: 25%;
+    }
+
+    .team-details {
+      float: left;
+      padding-left: 2%;
+      width: 68%;
+    }
+
+    #team h1 {
+      font-size: 1.875rem;
+    }
+
+    .team-description {
+      display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

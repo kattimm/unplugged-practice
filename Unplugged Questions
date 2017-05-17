@@ -1,0 +1,5 @@
+Office Hours Questions: Responsive Design & Unplugged Project
+
+If you use an ID on an element in one HTML page, I know you can't use that ID for another element on that page. But you can use it on another page without issues, right?
+
+After reading about figure tags, I still don't understand when to use them and when to just use an img tag. Why exactly is it better to apply styles to figure containers instead of the images themselves?
